@@ -8,7 +8,7 @@ function MeetupItem(props: { meetup: Meetup }) {
         <img
           src={props.meetup.image}
           alt={props.meetup.title}
-          className={classes.imgage}
+          className={classes.image}
         />
       </div>
       <div className={classes.content}>
